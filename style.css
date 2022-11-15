@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    box-sizing: inherit;
+
+}
+
+body{
+    background: #f3f5f9;
+    line-height: 1.5;
+}
+            /*menu*/
+.Barmenu{
+    display: flex;
+
+}
+
+.Barmenu .menu{
+    width: 300px;
+    height: 100%;
+    background: #f44336;
+    padding: 30px 0px;
+    position: fixed;
+    font-size: 24px;
+}
+
+.Barmenu .menu h2{
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 400;
+    margin: 0px 33px;
+    padding: 75px 0px;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.Barmenu .menu ul li{
+    margin: 0px 9px;
+    padding: 8px 16px;
+    border-bottom: 1px solid #f44336;
+    border-top: 1px solid #f44336;
+
+}
+
+.Barmenu .menu ul li a{
+    font: 18px 'poppins',sans-serif;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.Barmenu .menu ul li:hover{
+    background-color: #fff;
+}
+
+.Barmenu .menu ul li:hover a{
+    color: #070706;
+}
+
+.titre h1{
+    font: 64px 'poppins', sans-serif;
+    padding-top: 50px;
+}
+
+.main-1{
+    padding: 0.2px;
+    border: 5px solid #f44336;
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+h3{
+    color: #f44336;
+    font-weight: bold;
+    font: 48px 'poppins', sans-serif;
+    line-height: 1.5;
+}
+        /*Showcase.*/
+.image1{
+    width: 400px;
+    height: 350px;
+    float: left; 
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.image2{
+    height: 220px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+section{
+    position: absolute;
+    margin-left: 350px ;
+    width: 850px;
+}
+        /*Designers.*/
+.CARD {
+    width: 900px;
+    margin-top: 19PX;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    background-color: rgb(223, 216, 216);
+    width: 600px;
+    height: 400px;
+
+    margin-right: 10px;
+
+}
+.card-image{
+    background-color: rgb(234, 216, 216);
+    height: 189px;
+    margin-bottom: 5px;
+    background-size: cover;
+    width: 100%;
+    filter: grayscale(100%);
+
+}
+.card2{
+    background-image: url(img/FIG1.jpg);
+}
+.card3{
+    background-image: url(img/FIG2.jpg);
+}
+.card4{
+    background-image: url(img/FIG3.jpg);
+}
+h5{
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+h6{
+    font-size: 14px;
+    color:rgb(148, 145, 145) ;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+.pcard{
+    margin-left: 25px;
+    margin-bottom: 150px;
+}
+.card1:hover{
+    transform: scale(1.05);
+    filter: grayscale(100%);
+}
+
+        /*Packages.*/
+.TAB{
+    list-style-type: none;
+    width: 380px;
+    background-color: #d6d6d6;
+    margin-left: 19px;
+
+}
+.table-box li {
+    border-top:  1px solid grey;
+    padding: 1em;
+    width: 348px;
+    text-align: center;
+    list-style-type: none;
+  }
+.basic{
+    height: 60px;
+    color: aliceblue;
+    background-color: #585656;
+}
+.DOLLAR1{
+ height: 50px;
+ width: 150px;
+}
+.BUTTON1{
+    background-color: aliceblue;
+    width: 60px;
+    border: none;
+    padding: 5px;
+}
+.BUTTON1:hover{
+    color: aliceblue;
+    background-color: #949191;
+}
+.tabl-box2 li{ 
+    border-top:  1px solid grey;
+    padding: 1em;
+    width: 348px;
+    text-align: center;
+    list-style-type: none;
+}
+.Pro{
+    height: 60px;
+    color: aliceblue;
+    background-color: #f43131;
+}
+
+.DOLLAR2{
+height: 50px;
+width: 150px;
+text-align: center;
+}
+.BUTTON2{
+    background-color:rgb(228, 32, 32);
+    color: #f3f5f9;
+    width: 60px;
+    border: none;
+    padding: 5px;
+
+
+}
+.BUTTON2:hover{
+    color: aliceblue;
+    background-color: #949191;
+}
+
+
+ul{
+    float: left;
+}
+        /*contact*/
+input{
+    width: 100%;
+    height: 30px;
+}
+.Send{
+    width: 100%;
+    background-color: #f44336;
+    border:none;
+    height: 40px;   
+}
+.Send:hover{
+    color: aliceblue;
+    background-color: #949191;
+}
+        /*icons*/
+footer{
+
+    position: relative;  
+    min-height: 100px;
+    padding: 33px 27px;
+   margin-bottom: 5px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+
+}
+i{
+    
+    align-items: center;
+    margin-left: 130px;
+    color: #f08888;
+    font-size: x-large
+}
+
+
+
+
+
+
+ 
